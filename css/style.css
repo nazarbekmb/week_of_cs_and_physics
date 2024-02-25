@@ -15,7 +15,7 @@ body {
 .slideshow-container {
   position: relative;
   overflow: hidden;
-  height: 90vh; /* 100% высоты окна просмотра */
+  height: 95vh; /* 100% высоты окна просмотра */
   object-fit: none;
   
 }
@@ -31,7 +31,7 @@ body {
   pointer-events: none;
 }
 .mySlides img {
-  height: 90vh;
+  height: 95vh;
   object-fit: cover;
 }
 #main {
@@ -137,6 +137,7 @@ body {
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 #main2 p {
   text-align: center;
 }
@@ -297,6 +298,7 @@ p {
 footer {
   padding: 20px 0;
   text-align: center;
+  background-color: rgb(50, 37, 107);
 }
 .footer-container {
   display: flex;
@@ -304,7 +306,7 @@ footer {
   align-items: center;
 }
 .footer-container a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 .footer-container a:hover {
@@ -313,6 +315,7 @@ footer {
 }
 
 .footer-container p {
+  color: #ffffff;
   font-size: 20px;
 }
 @media screen and (max-width: 600px) {
