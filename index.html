@@ -27,13 +27,10 @@
         
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="https://img.freepik.com/free-vector/robot-isometric-professions-conceptual-composition-with-little-figures-androids-images-growing-crystals-molecule-vector-illustration_1284-30488.jpg?w=826" style="width:100%">
+            <img src="https://img.freepik.com/free-vector/virtual-augmented-reality-360-degree-isometric-composition-with-infographic-objects-digits-symbols-with-human-characters-vector-illustration_1284-30505.jpg?t=st=1708880109~exp=1708883709~hmac=c6451db6ae66d9168172922ac1984ac486c20f529a4eac10f8d55ca2b56b356c&w=900" style="width:100%">
             <div class="text">Week of computer science <br> and Physics</div>
         </div>
 
-
-
-        
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -47,23 +44,62 @@
     </div>
 
     <section id="main">
-        <!-- <div class="row">
-            {{range .}}
+      <p>Our teachers</p>
+      <div class="row">
         <div class="column">  
-            <a href="/info?id={{.ID}}">
-                    <img src="{{ .Image}}" alt="Artists Image" >
-                <p>{{ .Name }}</p>
-            </a>
+          <img src="./20240223_123956.jpg" alt="Artists Image" >
+              <p>Жанғазы Торғын</p>
         </div>
-        {{end}} -->
-    </div> 
-</section>
+        <div class="column">  
+          <img src="./20240223_123956.jpg" alt="Artists Image" >
+              <p>Жанғазы Торғын</p>
+        </div>
+      </div> 
+    </section>
+
+
+
+
+
+<div class="pp-advanced-accordion pp-toggle-icon-align-right" id="pp-advanced-accordion-6745fa7" data-accordion-id="6745fa7" role="tablist">
+  <div class="pp-accordion-item">
+      <div id="pp-accordion-tab-title-1081" class="pp-accordion-tab-title" tabindex="0" data-tab="1" role="tab" aria-controls="pp-accordion-tab-content-1081" aria-expanded="false">
+          <span class="pp-accordion-title-icon">
+              <span class="pp-accordion-tab-icon pp-icon"></span>
+              <span class="pp-accordion-title-text">Творческие кружки</span>
+          </span>
+          <div class="pp-accordion-toggle-icon">
+              <span class="pp-accordion-toggle-icon-close pp-icon"><i aria-hidden="true" class="icon icon-plus"></i></span>
+              <span class="pp-accordion-toggle-icon-open pp-icon"><i aria-hidden="true" class="icon icon-cross"></i></span>
+          </div>
+      </div>
+      <div id="pp-accordion-tab-content-1085" class="pp-accordion-tab-content" data-tab="5" role="tabpanel" aria-labelledby="pp-accordion-tab-title-1085">
+          <ul>
+              <li>Запуск стартапов и бизнес инноваций</li>
+              <li>Разговорный казахский язык</li>
+              <li>Дополнительный английский</li>
+              <li>Китайский язык</li>
+              <li>Турецкий язык</li>
+              <li>Жылдам оқу</li>
+          </ul>
+      </div>
+  </div>
+</div>
+
     <footer>
         <div class="footer-container">
             <p>Groupie-Tracker © 2023</p>
             <p>Made by <a href="https://01.alem.school/git/mnazarbe/groupie-tracker-visualizations" target="_blank">mnazarbe and azakonov</a></p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".pp-accordion-tab-title").click(function(){
+        $(this).next(".pp-accordion-tab-content").slideToggle();
+    });
+});
+</script>
     <script>
         let slideIndex = 0;
         showSlides();
