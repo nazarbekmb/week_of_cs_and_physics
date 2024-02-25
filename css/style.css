@@ -46,7 +46,9 @@ body {
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
+#main p {
+  text-align: center;
+}
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
