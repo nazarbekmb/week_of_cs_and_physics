@@ -15,7 +15,7 @@ body {
 .slideshow-container {
   position: relative;
   overflow: hidden;
-  height: 100vh; /* 100% высоты окна просмотра */
+  height: 90vh; /* 100% высоты окна просмотра */
   object-fit: none;
   
 }
