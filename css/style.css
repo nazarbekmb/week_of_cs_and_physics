@@ -81,6 +81,9 @@ h2 {
   background-color: #ffffff;
 }
 
+.accordion-title-text {
+  text-align: center;
+}
 .accordion-tab-content {
   display: none;
   padding: 10px;
